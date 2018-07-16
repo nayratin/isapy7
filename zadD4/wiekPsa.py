@@ -12,4 +12,5 @@ yoursDogAge = input("Podaj wiek psa: ")
 if yoursDogAge.isdigit() == True:
   dog_age_calc(yoursDogAge)
 else:
-  print("bledne dane!")
+  print("bledne dane! podaj je jeszcze raz!")
+
